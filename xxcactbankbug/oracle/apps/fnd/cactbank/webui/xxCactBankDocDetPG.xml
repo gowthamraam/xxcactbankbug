@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<page xmlns:jrad="http://xmlns.oracle.com/jrad" xmlns:oa="http://xmlns.oracle.com/oa" xmlns:ui="http://xmlns.oracle.com/uix/ui" version="10.1.3_1312" xml:lang="en-US" xmlns:user="http://xmlns.oracle.com/jrad/user" xmlns="http://xmlns.oracle.com/jrad" file-version="$Header$">
+   <content>
+      <oa:pageLayout id="region1" amDefName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxCactBankAM" windowTitle="Document Details" title="Upload Your Documents" controllerClass="xxcactbankbug.oracle.apps.fnd.cactbank.webui.xxCactBankDocDetCO">
+         <ui:corporateBranding>
+            <oa:image id="corporateBrandingImage" source="/OA_MEDIA/image003.png"/>
+         </ui:corporateBranding>
+         <ui:location>
+            <oa:train id="TrainDemoRN" extends="/xxcactbankbug/oracle/apps/fnd/cactbank/webui/TrainRN"/>
+         </ui:location>
+         <ui:contents>
+            <oa:header id="region2" text="Upload Documents">
+               <ui:contents>
+                  <oa:tableLayout id="region3" hAlign="center">
+                     <ui:contents>
+                        <oa:rowLayout id="Row1">
+                           <ui:contents>
+                              <oa:cellFormat id="Cell1">
+                                 <ui:contents>
+                                    <oa:messageChoice id="DocType" prompt="Document Name" viewName="xxCactBankCreateVO" viewAttr="DocName" pickListViewName="xxCactBankDocTypeVO" pickListDispAttr="DocumentType" pickListValAttr="DocumentType" required="no"/>
+                                 </ui:contents>
+                              </oa:cellFormat>
+                           </ui:contents>
+                        </oa:rowLayout>
+                        <oa:rowLayout id="Row2">
+                           <ui:contents>
+                              <oa:cellFormat id="Cell2">
+                                 <ui:contents>
+                                    <oa:messageFileUpload id="item2" prompt="File Upload" required="yes"/>
+                                 </ui:contents>
+                              </oa:cellFormat>
+                              <oa:cellFormat id="Cell4">
+                                 <ui:contents>
+                                    <oa:formValue id="EmailId" prompt="Test"/>
+                                 </ui:contents>
+                              </oa:cellFormat>
+                              <oa:cellFormat id="Cell5">
+                                 <ui:contents>
+                                    <oa:formValue id="UserId" prompt="Test2" dataType="VARCHAR2"/>
+                                 </ui:contents>
+                              </oa:cellFormat>
+                              <oa:cellFormat id="Cell6">
+                                 <ui:contents>
+                                    <oa:formValue id="Password" viewName="xxCactBankCreateVO" viewAttr="Password" prompt="Password"/>
+                                 </ui:contents>
+                              </oa:cellFormat>
+                              <oa:cellFormat id="Cell7">
+                                 <ui:contents>
+                                    <oa:formValue id="FirstName" prompt="FirstName"/>
+                                 </ui:contents>
+                              </oa:cellFormat>
+                           </ui:contents>
+                        </oa:rowLayout>
+                     </ui:contents>
+                  </oa:tableLayout>
+               </ui:contents>
+            </oa:header>
+            <oa:pageButtonBar id="PageButtonBar" extends="/xxcactbankbug/oracle/apps/fnd/cactbank/webui/TrainFooterRN"/>
+            <oa:pageButtonBar id="PageBBar">
+               <ui:contents>
+                  <oa:submitButton id="Submit" text="Submit" prompt="Submit"/>
+                  <oa:submitButton id="Cancel" text="Cancel" prompt="Cancel" hAlign="start"/>
+               </ui:contents>
+            </oa:pageButtonBar>
+         </ui:contents>
+      </oa:pageLayout>
+   </content>
+</page>

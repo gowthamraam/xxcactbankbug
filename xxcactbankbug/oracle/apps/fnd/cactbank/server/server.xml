@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<!DOCTYPE JboPackage SYSTEM "jbo_03_01.dtd">
+
+<JboPackage
+   Name="server"
+   SeparateXMLFiles="true"
+   PackageName="xxcactbankbug.oracle.apps.fnd.cactbank.server" >
+   <DesignTime>
+      <Attr Name="_ejbPackage" Value="false" />
+      <Attr Name="_version" Value="10.1.3.41.57" />
+   </DesignTime>
+   <Containee
+      Name="xxCactAttachmentVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxCactAttachmentVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxCactBankAccTypeVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxCactBankAccTypeVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxCactBankAM"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxCactBankAM"
+      ObjectType="AppModule" >
+   </Containee>
+   <Containee
+      Name="xxCactBankAnnIncomeVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxCactBankAnnIncomeVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxcactbankBankVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxcactbankBankVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxCactBankCreateVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxCactBankCreateVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxCactBankDetVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxCactBankDetVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxCactBankDocTypeVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxCactBankDocTypeVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxCactBankLatestTxn"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxCactBankLatestTxn"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxCactBankLoginVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxCactBankLoginVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxCactBankOccTypeVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxCactBankOccTypeVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxcactbanktxntestBalanceVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxcactbanktxntestBalanceVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxcactBankTxnTestBalVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxcactBankTxnTestBalVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxcactBanktxnTestMyTVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxcactBanktxnTestMyTVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxcactBankValiVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxcactBankValiVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="XxcactTransactionVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.XxcactTransactionVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxcactTxnTestVO"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxcactTxnTestVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxcactTxnTestVO1"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxcactTxnTestVO1"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="xxcactTxnTestVO2"
+      FullName="xxcactbankbug.oracle.apps.fnd.cactbank.server.xxcactTxnTestVO2"
+      ObjectType="ViewObject" >
+   </Containee>
+</JboPackage>
